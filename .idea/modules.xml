@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dataclear/dataclear.iml" filepath="$PROJECT_DIR$/dataclear/dataclear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ggggg/ggggg.iml" filepath="$PROJECT_DIR$/ggggg/ggggg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs_user/hdfs_user.iml" filepath="$PROJECT_DIR$/hdfs_user/hdfs_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nameSpaceTwo.iml" filepath="$PROJECT_DIR$/.idea/nameSpaceTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yarn/yarn.iml" filepath="$PROJECT_DIR$/yarn/yarn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zk_dubbo/zk_dubbo.iml" filepath="$PROJECT_DIR$/zk_dubbo/zk_dubbo.iml" />
+    </modules>
+  </component>
+</project>

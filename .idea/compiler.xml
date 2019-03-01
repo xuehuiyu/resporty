@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dataclear" />
+        <module name="ggggg" />
+        <module name="hdfs_user" />
+        <module name="yarn" />
+        <module name="zk_dubbo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dataclear" target="1.5" />
+      <module name="ggggg" target="1.5" />
+      <module name="hdfs_user" target="1.5" />
+      <module name="yarn" target="1.5" />
+      <module name="zk_dubbo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
