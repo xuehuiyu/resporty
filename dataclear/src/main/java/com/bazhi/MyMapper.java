@@ -13,7 +13,7 @@ public class MyMapper extends Mapper<LongWritable, Text,Text,Text> {
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         final String regex = "^(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})\\s-\\s-\\s\\[(.*)\\s.*]\\s\"[A-Z]*\\s(.*)\\sHTTP\\/1.1\"\\s(\\d{3}).*$";
         final String string = value.toString();
-
+        System.out.println("=======================");
         final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
         final Matcher matcher = pattern.matcher(string);
 
